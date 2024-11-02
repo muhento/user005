@@ -1,0 +1,136 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Header */
+.profile-header {
+    background-color: #4a5568;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-header h1 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.profile-header .title {
+    font-size: 1em;
+    color: #cbd5e0;
+}
+
+/* Contact Buttons */
+.contact-buttons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 15px;
+    background-color: #e2e8f0;
+}
+
+.call-btn, .email-btn, .location-btn, .social-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22%;
+    padding: 10px;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #4a5568;
+    background-color: #edf2f7;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.call-btn:hover, .email-btn:hover, .location-btn:hover, .social-btn:hover {
+    background-color: #cbd5e0;
+}
+
+/* Profile Info */
+.profile-info {
+    padding: 15px;
+}
+
+/* Right align emergency contact */
+.emergency-contact {
+    display: flex;
+    justify-content: flex-end; /* Aligns content to the right */
+}
+
+.info-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.info-label {
+    font-weight: 500;
+    color: #4a5568;
+}
+
+.info-value {
+    color: #2d3748;
+}
+
+/* Floating Action Button */
+.fab {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 56px;
+    height: 56px;
+    font-size: 1.5em;
+    color: #ffffff;
+    background-color: #e53e3e;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fab:hover {
+    background-color: #c53030;
+}
+
+
+
+
+
+
